@@ -493,6 +493,17 @@ body.loaded #loading-overlay {
     color: #cfcfcf;
     text-align: justify;
 }
+
+.main-slide-info p a {
+    color: #f9a368;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.main-slide-info p a:hover {
+    color: #cfcfcf;
+}
+
 /* Main Slide */
 
 /* Company Profile */
