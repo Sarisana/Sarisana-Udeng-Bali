@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', function() {
       ).join('\n');
       const totalPrice = cart.reduce((total, item) => total + (item.price * item.quantity), 0);
       const message = encodeURIComponent(`Keranjang Saya:\n${cartMessage}\n\nTotal: Rp. ${totalPrice.toLocaleString('id-ID')}`);
-      window.location.href = `https://wa.me/+6288703293943?text=${message}`;
+      window.location.href = `https://wa.me/+6285179590346?text=${message}`;
     });
   
     // Penanganan form pemesanan
